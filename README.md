@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Javascript
-Update time:  2017-08-23 13:40:49
+Update time:  2017-08-24 10:08:10
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
@@ -454,7 +454,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |463|[island-perimeter](https://leetcode.com/problems/island-perimeter)|||Easy|
 |464|[can-i-win](https://leetcode.com/problems/can-i-win)|||Medium|
 |465|[optimal-account-balancing](https://leetcode.com/problems/optimal-account-balancing)|:lock:||Hard|
-|466|[count-the-repetitions](https://leetcode.com/problems/count-the-repetitions)|||Hard|
+|466|[count-the-repetitions](https://leetcode.com/problems/count-the-repetitions)||[:memo:](https://leetcode.com/articles/count-the-repetitions/)|Hard|
 |467|[unique-substrings-in-wraparound-string](https://leetcode.com/problems/unique-substrings-in-wraparound-string)|||Medium|
 |468|[validate-ip-address](https://leetcode.com/problems/validate-ip-address)|||Medium|
 |469|[convex-polygon](https://leetcode.com/problems/convex-polygon)|:lock:||Medium|
@@ -598,7 +598,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |655|[print-binary-tree](https://leetcode.com/problems/print-binary-tree)||[:memo:](https://leetcode.com/articles/print-binary-tree/)|Medium|
 |656|[coin-path](https://leetcode.com/problems/coin-path)|:lock:|[:memo:](https://leetcode.com/articles/coin-path/)|Hard|
 |657|[judge-route-circle](https://leetcode.com/problems/judge-route-circle)|||Easy|
-|658|[find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements)|||Medium|
+|658|[find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements)||[:memo:](https://leetcode.com/articles/find-k-closest-elements/)|Medium|
 |659|[split-array-into-consecutive-subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|||Medium|
 |660|[remove-9](https://leetcode.com/problems/remove-9)|||Hard|
 |661|[image-smoother](https://leetcode.com/problems/image-smoother)|||Easy|
