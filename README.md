@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Javascript
-Update time:  2017-08-24 10:08:10
+Update time:  2017-08-26 16:24:04
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
-I have solved **18   /   589** problems
+I have solved **26   /   589** problems
 while there are **110** problems still locked.
 
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
@@ -35,22 +35,22 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |17|[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|||Medium|
 |18|[4sum](https://leetcode.com/problems/4sum)|||Medium|
 |19|[remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list)||[:memo:](https://leetcode.com/articles/remove-nth-node-end-list/)|Medium|
-|20|[valid-parentheses](https://leetcode.com/problems/valid-parentheses)|||Easy|
-|21|[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists)|||Easy|
+|20|[valid-parentheses](https://leetcode.com/problems/valid-parentheses)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/020-valid-parentheses/valid-parentheses.js)||Easy|
+|21|[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/021-merge-two-sorted-lists/merge-two-sorted-lists.js)||Easy|
 |22|[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|||Medium|
 |23|[merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists)|||Hard|
 |24|[swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|||Medium|
 |25|[reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group)|||Hard|
 |26|[remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)||[:memo:](https://leetcode.com/articles/remove-duplicates-sorted-array/)|Easy|
 |27|[remove-element](https://leetcode.com/problems/remove-element)||[:memo:](https://leetcode.com/articles/remove-element/)|Easy|
-|28|[implement-strstr](https://leetcode.com/problems/implement-strstr)|||Easy|
+|28|[implement-strstr](https://leetcode.com/problems/implement-strstr)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/028-implement-strstr/implement-strstr.js)||Easy|
 |29|[divide-two-integers](https://leetcode.com/problems/divide-two-integers)|||Medium|
 |30|[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|||Hard|
 |31|[next-permutation](https://leetcode.com/problems/next-permutation)||[:memo:](https://leetcode.com/articles/next-permutation/)|Medium|
 |32|[longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)||[:memo:](https://leetcode.com/articles/longest-valid-parentheses/)|Hard|
 |33|[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array)|||Medium|
 |34|[search-for-a-range](https://leetcode.com/problems/search-for-a-range)|||Medium|
-|35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|||Easy|
+|35|[search-insert-position](https://leetcode.com/problems/search-insert-position)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/035-search-insert-position/search-insert-position.js)||Easy|
 |36|[valid-sudoku](https://leetcode.com/problems/valid-sudoku)|||Medium|
 |37|[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|||Hard|
 |38|[count-and-say](https://leetcode.com/problems/count-and-say)|||Easy|
@@ -186,7 +186,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |168|[excel-sheet-column-title](https://leetcode.com/problems/excel-sheet-column-title)|||Easy|
 |169|[majority-element](https://leetcode.com/problems/majority-element)|||Easy|
 |170|[two-sum-iii-data-structure-design](https://leetcode.com/problems/two-sum-iii-data-structure-design)|:lock:||Easy|
-|171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|||Easy|
+|171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/171-excel-sheet-column-number/excel-sheet-column-number.js)||Easy|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|||Easy|
 |173|[binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator)|||Medium|
 |174|[dungeon-game](https://leetcode.com/problems/dungeon-game)|||Hard|
@@ -196,7 +196,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |188|[best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|||Hard|
 |189|[rotate-array](https://leetcode.com/problems/rotate-array)||[:memo:](https://leetcode.com/articles/rotate-array/)|Easy|
 |190|[reverse-bits](https://leetcode.com/problems/reverse-bits)|||Easy|
-|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)||[:memo:](https://leetcode.com/articles/number-1-bits/)|Easy|
+|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/191-number-of-1-bits/number-of-1-bits.js)|[:memo:](https://leetcode.com/articles/number-1-bits/)|Easy|
 |198|[house-robber](https://leetcode.com/problems/house-robber)||[:memo:](https://leetcode.com/articles/house-robber/)|Easy|
 |199|[binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view)|||Medium|
 |200|[number-of-islands](https://leetcode.com/problems/number-of-islands)|||Medium|
@@ -381,7 +381,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)|||Medium|
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|||Hard|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|||Medium|
-|383|[ransom-note](https://leetcode.com/problems/ransom-note)|||Easy|
+|383|[ransom-note](https://leetcode.com/problems/ransom-note)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/383-ransom-note/ransom-note.js)||Easy|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|||Medium|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|||Medium|
 |386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|||Medium|
@@ -445,7 +445,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |452|[minimum-number-of-arrows-to-burst-balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|||Medium|
 |453|[minimum-moves-to-equal-array-elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)||[:memo:](https://leetcode.com/articles/minimum-moves-to-equal-array-elements/)|Easy|
 |454|[4sum-ii](https://leetcode.com/problems/4sum-ii)|||Medium|
-|455|[assign-cookies](https://leetcode.com/problems/assign-cookies)|||Easy|
+|455|[assign-cookies](https://leetcode.com/problems/assign-cookies)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/455-assign-cookies/assign-cookies.js)||Easy|
 |456|[132-pattern](https://leetcode.com/problems/132-pattern)||[:memo:](https://leetcode.com/articles/132-pattern/)|Medium|
 |459|[repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern)|||Easy|
 |460|[lfu-cache](https://leetcode.com/problems/lfu-cache)|||Hard|
