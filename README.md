@@ -1,12 +1,19 @@
 # :pencil2: Leetcode Solutions with Javascript
-Update time:  2017-08-29 13:01:22
+Update time:  2017-08-29 14:59:09
+
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
+
 I have solved **32   /   593** problems
 while there are **113** problems still locked.
+
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
+
 If you have any question, please give me an [issue](https://github.com/thomasyimgit/leetcode-js/issues).
+
 If you are loving solving problems in leetcode, please contact me to enjoy it together!
+
 (Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
+
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 |1|[two-sum](https://leetcode.com/problems/two-sum)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/001-two-sum/two-sum.js)|[:memo:](https://leetcode.com/articles/two-sum/)|Easy|
