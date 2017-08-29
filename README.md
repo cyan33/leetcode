@@ -1,19 +1,12 @@
 # :pencil2: Leetcode Solutions with Javascript
-Update time:  2017-08-26 16:24:04
-
+Update time:  2017-08-29 13:01:22
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
-
-I have solved **26   /   589** problems
-while there are **110** problems still locked.
-
+I have solved **32   /   593** problems
+while there are **113** problems still locked.
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
-
 If you have any question, please give me an [issue](https://github.com/thomasyimgit/leetcode-js/issues).
-
 If you are loving solving problems in leetcode, please contact me to enjoy it together!
-
 (Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
-
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 |1|[two-sum](https://leetcode.com/problems/two-sum)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/001-two-sum/two-sum.js)|[:memo:](https://leetcode.com/articles/two-sum/)|Easy|
@@ -137,7 +130,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |119|[pascals-triangle-ii](https://leetcode.com/problems/pascals-triangle-ii)|||Easy|
 |120|[triangle](https://leetcode.com/problems/triangle)|||Medium|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)||[:memo:](https://leetcode.com/articles/best-time-buy-and-sell-stock/)|Easy|
-|122|[best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)||[:memo:](https://leetcode.com/articles/best-time-buy-and-sell-stock-ii/)|Easy|
+|122|[best-time-to-buy-and-sell-stock-ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/122-best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.js)|[:memo:](https://leetcode.com/articles/best-time-buy-and-sell-stock-ii/)|Easy|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|||Hard|
 |124|[binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|||Hard|
 |125|[valid-palindrome](https://leetcode.com/problems/valid-palindrome)|||Easy|
@@ -182,9 +175,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |164|[maximum-gap](https://leetcode.com/problems/maximum-gap)||[:memo:](https://leetcode.com/articles/maximum-gap/)|Hard|
 |165|[compare-version-numbers](https://leetcode.com/problems/compare-version-numbers)|||Medium|
 |166|[fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)||[:memo:](https://leetcode.com/articles/fraction-recurring-decimal/)|Medium|
-|167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)||[:memo:](https://leetcode.com/articles/two-sum-ii-input-array-sorted/)|Easy|
+|167|[two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.js)|[:memo:](https://leetcode.com/articles/two-sum-ii-input-array-sorted/)|Easy|
 |168|[excel-sheet-column-title](https://leetcode.com/problems/excel-sheet-column-title)|||Easy|
-|169|[majority-element](https://leetcode.com/problems/majority-element)|||Easy|
+|169|[majority-element](https://leetcode.com/problems/majority-element)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/169-majority-element/majority-element.js)||Easy|
 |170|[two-sum-iii-data-structure-design](https://leetcode.com/problems/two-sum-iii-data-structure-design)|:lock:||Easy|
 |171|[excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/171-excel-sheet-column-number/excel-sheet-column-number.js)||Easy|
 |172|[factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)|||Easy|
@@ -236,7 +229,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |234|[palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list)|||Easy|
 |235|[lowest-common-ancestor-of-a-binary-search-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|||Easy|
 |236|[lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|||Medium|
-|237|[delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list)||[:memo:](https://leetcode.com/articles/delete-node-linked-list/)|Easy|
+|237|[delete-node-in-a-linked-list](https://leetcode.com/problems/delete-node-in-a-linked-list)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/237-delete-node-in-a-linked-list/delete-node-in-a-linked-list.js)|[:memo:](https://leetcode.com/articles/delete-node-linked-list/)|Easy|
 |238|[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)|||Medium|
 |239|[sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum)|||Hard|
 |240|[search-a-2d-matrix-ii](https://leetcode.com/problems/search-a-2d-matrix-ii)|||Medium|
@@ -385,7 +378,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)|||Medium|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|||Medium|
 |386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|||Medium|
-|387|[first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string)|||Easy|
+|387|[first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string)|[Javascript](https://github.com/thomasyimgit/leetcode-js/blob/master/387-first-unique-character-in-a-string/first-unique-character-in-a-string.js)||Easy|
 |388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path)|||Medium|
 |389|[find-the-difference](https://leetcode.com/problems/find-the-difference)|||Easy|
 |390|[elimination-game](https://leetcode.com/problems/elimination-game)|||Medium|
@@ -600,8 +593,12 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |657|[judge-route-circle](https://leetcode.com/problems/judge-route-circle)|||Easy|
 |658|[find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements)||[:memo:](https://leetcode.com/articles/find-k-closest-elements/)|Medium|
 |659|[split-array-into-consecutive-subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|||Medium|
-|660|[remove-9](https://leetcode.com/problems/remove-9)|||Hard|
+|660|[remove-9](https://leetcode.com/problems/remove-9)|:lock:||Hard|
 |661|[image-smoother](https://leetcode.com/problems/image-smoother)|||Easy|
 |662|[maximum-width-of-binary-tree](https://leetcode.com/problems/maximum-width-of-binary-tree)|||Medium|
-|663|[equal-tree-partition](https://leetcode.com/problems/equal-tree-partition)|||Medium|
+|663|[equal-tree-partition](https://leetcode.com/problems/equal-tree-partition)|:lock:||Medium|
 |664|[strange-printer](https://leetcode.com/problems/strange-printer)|||Hard|
+|665|[non-decreasing-array](https://leetcode.com/problems/non-decreasing-array)|||Easy|
+|666|[path-sum-iv](https://leetcode.com/problems/path-sum-iv)|:lock:||Medium|
+|667|[beautiful-arrangement-ii](https://leetcode.com/problems/beautiful-arrangement-ii)|||Medium|
+|668|[kth-smallest-number-in-multiplication-table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table)|||Hard|

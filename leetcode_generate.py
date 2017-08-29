@@ -15,9 +15,9 @@ import time
 import datetime
 import re
 import sys
+import html
 
 from selenium import webdriver
-from pyquery import PyQuery as pq
 from collections import namedtuple, OrderedDict
 
 
@@ -222,7 +222,6 @@ class Leetcode:
     def load(self):
         """
         load: all in one
-
         login -> load api -> load submissions -> solutions to items
         return `all in one items`
         """
@@ -292,7 +291,6 @@ class Leetcode:
     def load_solutions_to_items(self):
         """
         load all solutions to items
-
         combine submission's `runtime` `title` `lang` `submission_url` to items
         """
         titles = [i.question__title for i in self.items]
@@ -323,14 +321,21 @@ class Leetcode:
     def _get_code_by_solution(self, solution):
         """
         get code by solution
-
         solution: type dict
         """
         solution_url = solution['submission_url']
         r = self.session.get(solution_url, proxies=PROXIES)
         assert r.status_code == 200
-        d = pq(r.text)
-        question = d('html>head>meta[name=description]').attr('content').strip()
+
+        pattern = re.compile(r'<meta name=\"description\" content=\"(?P<question>.*)\r\n\" />\n', re.S)
+        m1 = pattern.search(r.text)
+        question = m1.groupdict()['question'] if m1 else None
+
+        if not question:
+            raise Exception('Can not find question descript in question:{title}'.format(title=solution['title']))
+
+        # html.unescape to remove &quot; &#39;
+        question = html.unescape(question)
 
         pattern = re.compile(r'submissionCode: \'(?P<code>.*)\',\n  editCodeUrl', re.S)
         m1 = pattern.search(r.text)
@@ -427,20 +432,13 @@ class Leetcode:
         languages_readme = ','.join([x.capitalize() for x in self.languages])
         md = '''# :pencil2: Leetcode Solutions with {language}
 Update time:  {tm}
-
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
-
 I have solved **{num_solved}   /   {num_total}** problems
 while there are **{num_lock}** problems still locked.
-
 If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
-
 If you have any question, please give me an [issue]({repo}/issues).
-
 If you are loving solving problems in leetcode, please contact me to enjoy it together!
-
 (Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
-
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|'''.format(language=languages_readme,
                                           tm=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
