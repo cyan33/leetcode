@@ -28,5 +28,4 @@ class Solution(object):
             curr.next = prev
             prev = curr
         return prev
-        
             
