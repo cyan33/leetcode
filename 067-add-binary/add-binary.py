@@ -13,11 +13,20 @@
 
 
 class Solution(object):
+    def helper(self, a, b):
+        if not b:
+            return str(bin(a))[2:]
+        else:
+            return self.helper(a ^ b, (a & b) << 1)
+    
     def addBinary(self, a, b):
         """
         :type a: str
         :type b: str
         :rtype: str
         """
-        return str(bin(int(a, 2) + int(b, 2)))[2:]
+        a = int(a, 2)
+        b = int(b, 2)
+        
+        return self.helper(a, b)
         

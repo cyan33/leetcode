@@ -26,24 +26,20 @@
  * @param {number} y
  * @return {number}
  */
- 
-var toBinary = function(x) {
-    var binary = x.toString(2);
-    while(binary.length < 31) {
-        binary = "0" + binary;
-    }
-    
-    return binary.split("");
-};
-
 var hammingDistance = function(x, y) {
-    var xBinArr = toBinary(x),
-        yBinArr = toBinary(y),
-        count = 0;
+//     let xBinStr = x.toString(2).split('').reverse().join('')
+//     let yBinStr = y.toString(2).split('').reverse().join('')
     
-    xBinArr.forEach(function(bit, i) {
-        if(bit !== yBinArr[i])  count++
-    })
+//     let len = xBinStr.length > yBinStr.length ? xBinStr.length : yBinStr.length
+//     let res = 0
     
-    return count;
+//     for (let i = 0; i < len; i++) {
+//         let currX = xBinStr[i] ? xBinStr[i] : '0'
+//         let currY = yBinStr[i] ? yBinStr[i] : '0'
+//         res = currX !== currY ? res + 1 : res
+//     }
+//     return res
+    
+    let xor = (x ^ y).toString(2).split('')
+    return xor.reduce((accu, curr) => curr === '1' ? accu + 1 : accu, 0)
 };

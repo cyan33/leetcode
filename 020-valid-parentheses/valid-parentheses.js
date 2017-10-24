@@ -10,20 +10,21 @@
 // a valid one should be like: '({[]})'
 // in the stack -> [')', '}', ']']
 var isValid = function(s) {
-    let charArr = s.split('');
-    let stack = [];
-    let c;
-    for (let i = 0; i < charArr.length; i++) {
-        c = charArr[i];
-        if (charArr[i] === '(') {
-            stack.push(')');
-        } else if (c === '{') {
-            stack.push('}');
-        } else if (c === '[') {
-            stack.push(']');
-        } else if (stack.length === 0 || stack.pop() !== c) {
-            return false;
+    let res = []
+    let charArr = s.split('')
+    const dict = {
+        '(': ')',
+        '[': ']',
+        '{': '}'
+    }
+    
+    for (let p of charArr) {
+        if (p === '(' || p === '{' || p === '[') {
+            res.push(dict[p])
+        } else {
+            let curr = res.pop()
+            if (p !== curr) return false
         }
     }
-    return stack.length === 0;
+    return res.length === 0
 };

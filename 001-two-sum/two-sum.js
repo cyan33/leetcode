@@ -18,13 +18,14 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    for(let i = 0; i < nums.length; i++) {
-        for (j = 0; j < nums.length; j++) {
-            if (i === j)    continue;
-            if (nums[i] + nums[j] === target) {
-                return [i, j];
-            }
+    let dict = {}
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] in dict) {
+            return [dict[nums[i]], i]
+        }
+        else {
+            dict[target - nums[i]] = i
         }
     }
-    return null;
+    return null
 };
